@@ -1,7 +1,4 @@
-@font-face {
-    font-family:PLEO;
-    src: url(https://pleooo.github.io/CSS/fontenw3.tff);
-}
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@200;400;700&display=swap');
 body/*设置背景*/
 {
     background-image : url("../background.jpg");
@@ -12,7 +9,6 @@ body/*设置背景*/
 {
     text-align : left;
     background-color : rgba(255,255,249,1);/*背景色*/
-    border-radius : 4px;/*圆角：4像素*/
     margin : 15px 30px 15px 30px;/*边外距*/
     padding : 25px 10px 25px 10px;/*边内距*/
     text-indent : 2em;/*首行缩进*/  line-height : 1.15;/*行高*/
